@@ -1,9 +1,10 @@
 # Big Data, Bigger Upsets: Letting AI Embrace the Madness
-
 By Connor Long
-<img alt="Simple Icon of a camera. This is just a place holder for your image" src="https://media.licdn.com/dms/image/D4D12AQH5Hnkq-G2Ucw/article-cover_image-shrink_720_1280/0/1691263849733?e=2147483647&v=beta&t=eYdGi07vRtKUnO1mPGi46KVE6UnaB_x3A767DwpF__s" width="75%">
 
+---
+<img alt="Simple Icon of a camera. This is just a place holder for your image" src="https://media.licdn.com/dms/image/D4D12AQH5Hnkq-G2Ucw/article-cover_image-shrink_720_1280/0/1691263849733?e=2147483647&v=beta&t=eYdGi07vRtKUnO1mPGi46KVE6UnaB_x3A767DwpF__s" width="75%">
 Image from: https://media.licdn.com/dms/image/D4D12AQH5Hnkq-G2Ucw/article-cover_image-shrink_720_1280/0/1691263849733?e=2147483647&v=beta&t=eYdGi07vRtKUnO1mPGi46KVE6UnaB_x3A767DwpF__s
+
 ---
 ### Abstract
 *For my project, I chose to look at college basketball, specifically focusing on the NCAA tournament. The motivation behind this choice stems from the tournament’s unpredictabability and popularity, 
