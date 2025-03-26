@@ -1,14 +1,12 @@
 ### College Basketball Data
+---
 Datasets for seasons 2013-2025
 ---
-Content
-Data from the 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Division I college basketball seasons.
-cbb.csv has seasons 2013-2019 and seasons 2021-2024 combined.
-The 2020 season's data set is kept separate from the other seasons, because there was no postseason due to the Coronavirus.
-cbb25 contains data as of 3/18/2025. This dataset will be updated and added to cbb.csv at the conclusion of the Tournament.
+### Content
+- Data from the 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Division I college basketball seasons.cbb.csv has seasons 2013-2019 and seasons 2021-2024 combined.The 2020 season's data set is kept separate from the other seasons, because there was no postseason due to the Coronavirus.cbb25 contains data as of 3/18/2025. This dataset will be updated and added to cbb.csv at the conclusion of the Tournament.
 
 ---
-Variables
+### Variables
 - RK (Only in cbb25 (until the tournament is complete)): The ranking of the team at the end of the regular season
 - TEAM: The Division I college basketball school
 - CONF: The Athletic Conference in which the school participates in (A10 = Atlantic 10, ACC = Atlantic Coast Conference, AE = America East, Amer = American, 
