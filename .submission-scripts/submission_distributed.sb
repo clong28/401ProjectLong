@@ -1,0 +1,27 @@
+#!/bin/bash
+#SBATCH --job-name=tournament_model
+#SBATCH --output=results.out
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=8G
+#SBATCH --time=00:30:00
+
+# Load modules
+module purge
+
+module load Python/3.12.3-GCCcore-13.3.0
+module load CUDA
+# Install Required Packages
+pip install tensorflow
+pip install numpy
+pip install pandas
+pip install scikit-learn
+# Run python script 10 times for timing results
+echo "" > benchmark_distributed.txt
+
+# Run 10 timed trials
+for i in {1..10}; do
+    echo "Run $i:" >> benchmark_distributed.txt
+    /usr/bin/time -f "Real Time: %e seconds" python base_distributed.py >> results.out 2>> benchmark_distributed.txt
+    echo "" >> benchmark_distributed.txt
+done
